@@ -1,0 +1,20 @@
+{
+    "IKEA project": {
+        "description": "description- lorem ipseum",
+        "tech": "TypeScript, React.js, Next.js, Node.js, Express.js, AWS",
+        "github": "https://github.com/",
+        "img": "filler"
+    },
+    "Combain UI": {
+        "description": "description- lorem ipseum",
+        "tech": "JavaScript, React.js, Node.js, Supabase",
+        "github": "https://github.com/",
+        "img": "filler"
+    },
+    "Spotify stats Dashboard": {
+        "description": "description- lorem ipseum",
+        "tech": "JavaScript, React.js, Node.js, Spotify API, Recharts API",
+        "github": "https://github.com/",
+        "img": "filler"
+    }
+}

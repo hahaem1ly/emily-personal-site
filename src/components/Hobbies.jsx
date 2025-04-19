@@ -1,0 +1,36 @@
+import { Piano, MidiNumbers} from 'react-piano';
+import 'react-piano/dist/styles.css';
+import { Spotify } from 'react-spotify-embed';
+import "../styles/Hobbies.css";
+import Typewriter from 'typewriter-effect'; 
+import { motion } from 'framer-motion'; 
+import Music from './Music'
+
+
+export default function Hobbies() {
+
+    return (
+        <>
+            <div className='hobbies-intro-container'>
+            <Typewriter
+                    onInit={(typewriter) => {
+                        typewriter
+                            .typeString("I'm a big music fan and I play both pianond guitar ")
+                            .start();
+                    }}
+                    options={{
+                        autoStart: true,
+                        loop: false,
+                        cursor: '|',
+                        delay: 50,
+                    }}
+                />
+            
+            </div>
+            <Music /> 
+
+
+            
+        </>
+    );
+}

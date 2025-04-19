@@ -1,0 +1,17 @@
+.spotify-embed {
+    width: 300px;
+    height: 352px; 
+    border: none;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    margin: 12px;
+  }
+
+  .piano-container {
+    overflow-x: auto;
+
+  }
+  
+ 
+  

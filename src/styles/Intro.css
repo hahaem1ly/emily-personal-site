@@ -1,0 +1,18 @@
+.intro-container{
+    text-align: left;
+    margin-top: 4rem;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+}
+
+.intro-typewriter .Typewriter{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1.2rem;
+    margin-top: 1.0rem;
+    text-align: left;
+    white-space: normal;
+    line-height: 1.5;
+    max-width: 420px; 
+    width: fit-content;
+}
