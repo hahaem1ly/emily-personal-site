@@ -1,4 +1,3 @@
-import 'react-piano/dist/styles.css';
 import { Spotify } from 'react-spotify-embed';
 import "../styles/Hobbies.css";
 import { motion } from 'framer-motion';
