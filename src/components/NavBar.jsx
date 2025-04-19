@@ -2,6 +2,7 @@ import "../styles/NavBar.css";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import { Link } from 'react-router-dom';
+import Theme from "./Theme";
 
 
 export default function NavBar() {
@@ -22,6 +23,9 @@ export default function NavBar() {
                             <LinkedInIcon style={{ fontSize: 22 }} />
                         </a>
                     </div>
+                </li>
+                <li>
+                    <Theme />
                 </li>
 
             </ul>

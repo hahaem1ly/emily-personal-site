@@ -12,9 +12,9 @@ export default function Theme() {
     return (
         <button
             onClick={() => setDark(!dark)}
-            className="p-2 rounded bg-gray-200 dark:bg-gray-800"
+            className="p-2 rounded bg-gray-50 dark:bg-gray-900"
         >
-            {dark ? '☀️ Light' : '🌙 Dark'}
+            {dark ? '☀️' : '🌙 '}
         </button>
     );
 }
