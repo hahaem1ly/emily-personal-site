@@ -6,7 +6,7 @@
 
 @font-face {
   font-family: 'Amoria';
-  src: url('src/fonts/amoria/AMORIA.otf') format('truetype');
+  src: url('public/AMORIA.otf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }

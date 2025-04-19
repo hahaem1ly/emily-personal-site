@@ -8,7 +8,7 @@ export default function Intro() {
         <div className="intro-container">
             <Avatar
                 alt="Emily"
-                src="src/profile.jpeg"
+                src="public/profile.jpeg"
                 sx={{ width: 190, height: 190 }}
             />
 
