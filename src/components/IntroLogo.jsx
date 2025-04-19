@@ -1,18 +1,24 @@
 import { motion } from "framer-motion";
 
 export default function IntroLogo() {
+    const name = "E m i l y  H a".split("");
+
     return (
-        <motion.div
-            initial={{ opacity: 0, y: -20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.2, duration: 1 }}
-            style={{
-                fontSize: "3rem",
-                fontWeight: "bold",
-                fontFamily: "Inter, sans-serif",
-            }}
-        >
-            Emily Ha
-        </motion.div>
+        <div style={{ display: "flex", gap: "0.2rem", fontSize: "3.5rem", fontWeight: "bold", fontFamily: "Inter, sans-serif", color: "white" }}>
+            {name.map((letter, index) => (
+                <motion.span
+                    key={index}
+                    initial={{ y: -200, opacity: 0 }}
+                    animate={{ y: 0, opacity: 1 }}
+                    transition={{
+                        delay: index * 0.15,
+                        duration: 1,
+                        ease: "easeOut"
+                    }}
+                >
+                    {letter}
+                </motion.span>
+            ))}
+        </div>
     );
 }
