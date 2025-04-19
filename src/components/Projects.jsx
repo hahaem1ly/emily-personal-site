@@ -1,8 +1,6 @@
 import projectData from '../data/projectData.json';
 import { Fade } from 'react-awesome-reveal';
 import {
-    Card,
-    CardContent,
     Typography,
 } from '@mui/material';
 

@@ -5,8 +5,26 @@ import NavBar from './components/NavBar'
 import Hobbies from './components/Hobbies'
 import { Routes, Route } from 'react-router-dom'
 import Layout from './components/Layout'
+import IntroLogo from './components/IntroLogo'
+import { useState, useEffect } from 'react'
 
 function App() {
+  const [showLogo, setShowLogo] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => setShowLogo(false), 4500);
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (showLogo) {
+    return (
+      <div
+        className='intro-logo-screen'
+      >
+        <IntroLogo />
+      </div>
+    );
+  }
   return (
     <Layout>
       <NavBar />
