@@ -16,10 +16,10 @@ export default function NavBar() {
                 <li className="navbar-item"><Link to="/hobbies">/hobbies</Link></li>
                 <li>
                     <div className="socials">
-                        <a href="https://github.com/yourgithub" target="_blank" rel="noopener noreferrer">
+                        <a href="https://github.com/hahaem1ly" target="_blank" rel="noopener noreferrer">
                             <GitHubIcon style={{ fontSize: 22 }} />
                         </a>
-                        <a href="https://linkedin.com/in/yourlinkedin" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.linkedin.com/in/emily-ha-885605210/" target="_blank" rel="noopener noreferrer">
                             <LinkedInIcon style={{ fontSize: 22 }} />
                         </a>
                     </div>
