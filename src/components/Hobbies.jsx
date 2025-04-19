@@ -1,9 +1,6 @@
-import { Piano, MidiNumbers} from 'react-piano';
 import 'react-piano/dist/styles.css';
-import { Spotify } from 'react-spotify-embed';
 import "../styles/Hobbies.css";
-import Typewriter from 'typewriter-effect'; 
-import { motion } from 'framer-motion'; 
+import Typewriter from 'typewriter-effect';
 import Music from './Music'
 
 
@@ -12,10 +9,10 @@ export default function Hobbies() {
     return (
         <>
             <div className='hobbies-intro-container'>
-            <Typewriter
+                <Typewriter
                     onInit={(typewriter) => {
                         typewriter
-                            .typeString("I'm a big music fan and I play both pianond guitar ")
+                            .typeString("I'm a big music fan and I play both piano and guitar ")
                             .start();
                     }}
                     options={{
@@ -25,12 +22,12 @@ export default function Hobbies() {
                         delay: 50,
                     }}
                 />
-            
+
             </div>
-            <Music /> 
+            <Music />
 
 
-            
+
         </>
     );
 }

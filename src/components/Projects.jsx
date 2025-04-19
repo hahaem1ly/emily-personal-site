@@ -15,15 +15,15 @@ export default function Projects() {
 
             <div>
                 {Object.entries(projectData).map(([name, item], index) => (
-                    <Card key={index} sx={{ mb: 2 }}>
-                        <CardContent>
+                    <div key={index} sx={{ mb: 2 }}>
+                        <div>
                             <Typography variant="h6">{name}</Typography>
                             <Typography variant="body2">{item.description}</Typography>
                             <Typography variant="caption" display="block">
                                 {item.tech}
                             </Typography>
-                        </CardContent>
-                    </Card>
+                        </div>
+                    </div>
                 ))}
             </div>
         </Fade>
