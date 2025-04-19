@@ -1,6 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@700&display=swap');
+
+
+@font-face {
+  font-family: 'Amoria';
+  src: url('src/fonts/amoria/AMORIA.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 
 @layer components {
   .container-width {
