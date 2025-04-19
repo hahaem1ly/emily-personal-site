@@ -1,4 +1,3 @@
-import 'react-piano/dist/styles.css';
 import "../styles/Hobbies.css";
 import Typewriter from 'typewriter-effect';
 import Music from './Music'
