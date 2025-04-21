@@ -8,7 +8,7 @@
   display: flex;
   justify-content: center;
   z-index: 999;
-  color: #213547;
+  flex-wrap: wrap;
 }
 
 ul {
@@ -71,4 +71,19 @@ ul {
 .dark .theme-btn.dark {
   background-color: #181818;
   color: white;
+}
+/* Mobile styles */
+@media (max-width: 700px) {
+  ul {
+    gap: 1rem; 
+  }
+
+  .navbar-item a,
+  .theme-btn {
+    font-size: 0.8rem;
+  }
+
+  .socials {
+    gap: 1rem;
+  }
 }

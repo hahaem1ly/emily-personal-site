@@ -26,7 +26,7 @@ export default function Intro() {
                     <Typewriter
                         onInit={(typewriter) => {
                             typewriter
-                                .typeString("I'm a Computer Science Engineering student. asdasdasdsadasdasd adas sadas")
+                                .typeString("I'm a Computer Science Engineering student")
                                 .start();
                         }}
                         options={{

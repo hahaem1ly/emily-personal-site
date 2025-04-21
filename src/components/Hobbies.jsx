@@ -17,7 +17,6 @@ export default function Hobbies() {
                     options={{
                         autoStart: true,
                         loop: false,
-                        cursor: '|',
                         delay: 50,
                     }}
                 />

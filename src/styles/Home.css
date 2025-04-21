@@ -1,0 +1,27 @@
+.divider-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 3% 0;
+  }
+  
+.divider {
+    width: 85%;
+    height: 2px;
+    background-color: rgb(186, 183, 183);
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
+  }
+  
+  /* Dark mode */
+  .dark .divider {
+    background-color: rgb(181, 181, 181);
+  }
+  
+  /* Animation */
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }
+  
