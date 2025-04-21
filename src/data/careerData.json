@@ -1,22 +1,27 @@
 [
     {
-        "year": "2025",
+        "year": "Upcoming",
         "title": "Junior Software Engineer",
         "company": "Zalando"
     },
     {
-        "year": "2024",
-        "title": "Software Intern",
+        "year": "2024- 2025",
+        "title": "Software Developer Intern",
         "company": "IKEA"
     },
     {
-        "year": "2023",
-        "title": "Thesis",
+        "year": "2025 - present",
+        "title": "Thesis Worker",
         "company": "IKEA"
     },
     {
-        "year": "2023",
-        "title": "Thesis 2",
-        "company": "IKEA"
+        "year": "2025 - present",
+        "title": "Software Developer Student",
+        "company": "Axis Communications AB"
+    },
+    {
+        "year": "2023-2025 ",
+        "title": "Teaching Assistant 6 roles",
+        "company": "Lund University"
     }
 ]
