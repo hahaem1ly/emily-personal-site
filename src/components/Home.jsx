@@ -1,7 +1,8 @@
+import "../styles/home.css";
 import Intro from "./Intro";
 import Projects from "./Projects";
 import { Divider } from "@mui/material";
-import "../styles/home.css";
+
 
 
 export default function Home() {
