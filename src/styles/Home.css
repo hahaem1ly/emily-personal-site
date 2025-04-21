@@ -6,7 +6,7 @@
   }
   
 .divider {
-    width: 85%;
+    width: 75%;
     height: 2px;
     background-color: rgb(186, 183, 183);
     opacity: 0;
@@ -25,3 +25,9 @@
     }
   }
   
+  @media (max-width: 670px){
+    .divider{
+      width: 90%;
+    }
+    
+  }
