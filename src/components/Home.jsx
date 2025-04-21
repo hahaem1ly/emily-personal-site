@@ -2,6 +2,7 @@ import "../styles/Home.css";
 import Intro from "./Intro";
 import Projects from "./Projects";
 import { Divider } from "@mui/material";
+import ZdogBox from "./ZdogBox";
 
 
 
@@ -15,7 +16,8 @@ export default function Home() {
                 />
             </div>
 
-            <Projects></Projects>
+            {/* <Projects></Projects> */}
+            <ZdogBox />
         </div>
 
     );
