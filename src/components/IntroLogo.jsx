@@ -21,8 +21,8 @@ export default function IntroLogo() {
                         initial={{ y: -200, opacity: 0 }}
                         animate={{ y: 0, opacity: 1 }}
                         transition={{
-                            delay: index * 0.15,
-                            duration: 1,
+                            delay: index * 0.05,
+                            duration: 0.4,
                             ease: "easeOut"
                         }}
                     >
