@@ -8,10 +8,6 @@ import TimelineDot from '@mui/lab/TimelineDot';
 import TimelineOppositeContent, { } from '@mui/lab/TimelineOppositeContent';
 import careerData from '../data/careerData.json'
 
-
-
-
-
 export default function Carrer() {
     return (
         <Timeline>
