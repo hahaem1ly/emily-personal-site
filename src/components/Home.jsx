@@ -15,7 +15,7 @@ export default function Home() {
                 />
             </div>
 
-            <Projects></Projects>
+            {/* <Projects></Projects> */}
         </div>
 
     );

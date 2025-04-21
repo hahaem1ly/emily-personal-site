@@ -7,6 +7,7 @@ import { Routes, Route } from 'react-router-dom'
 import Layout from './components/Layout'
 import IntroLogo from './components/IntroLogo'
 import { useState, useEffect } from 'react'
+import ColorCursor from './components/ColorCursor'
 
 function App() {
   const [showLogo, setShowLogo] = useState(true);
@@ -26,15 +27,20 @@ function App() {
     );
   }
   return (
-    <Layout>
-      <NavBar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/hobbies" element={<Hobbies />} />
-      </Routes>
-    </Layout>
+    <>
+      <ColorCursor />
+      <Layout>
+        <NavBar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/hobbies" element={<Hobbies />} />
+        </Routes>
+      </Layout>
+    </>
   );
+
+
 }
 
 export default App;
