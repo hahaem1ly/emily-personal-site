@@ -1,4 +1,4 @@
-import "../styles/home.css";
+import "../styles/Home.css";
 import Intro from "./Intro";
 import Projects from "./Projects";
 import { Divider } from "@mui/material";
