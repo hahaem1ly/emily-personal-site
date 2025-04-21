@@ -8,6 +8,7 @@
   font-family: 'Inter', sans-serif;
   flex-direction: row;
   text-align: left;
+  gap: 4rem;
 }
 
 .intro-title {
