@@ -1,0 +1,14 @@
+.vertical-timeline::before {
+    /* this is the vertical line */
+    background: rgb(0, 0, 0) !important;
+}
+
+.dark .vertical-timeline::before{
+    background: rgb(255, 255, 255) !important;
+}
+
+:root {
+    --timeline-bg: rgb(255, 255, 255);
+    --timeline-text: #000000;
+    --timeline-icon-bg: rgb(4, 4, 4);
+}
