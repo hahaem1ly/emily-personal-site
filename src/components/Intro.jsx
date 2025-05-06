@@ -26,7 +26,7 @@ export default function Intro() {
                     <Typewriter
                         onInit={(typewriter) => {
                             typewriter
-                                .typeString("I'm a Computer Science Engineering student")
+                                .typeString("I'm a Computer Science Engineer and this site is currently under development. Meanwhile checkout my old personal website: https://hahaem1ly.netlify.app/ ")
                                 .start();
                         }}
                         options={{
